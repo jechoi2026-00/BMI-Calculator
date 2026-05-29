@@ -28,6 +28,19 @@
 
 ## 기술 스택
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
+  <img src="https://img.shields.io/badge/Jinja-B41717?style=for-the-badge&logo=jinja&logoColor=white" alt="Jinja2"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-663399?style=for-the-badge&logo=css&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/PyMySQL-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="PyMySQL"/>
+  <img src="https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white" alt="Gunicorn"/>
+  <img src="https://img.shields.io/badge/Cloudtype-000000?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudtype"/>
+</p>
+
 | 구분 | 사용 기술 |
 |---|---|
 | Backend | Python, Flask |
@@ -325,6 +338,18 @@ BMI 결과는 `bmi_results` 테이블에 저장됩니다.
 - Cloudtype 배포 시 환경변수를 반드시 확인해야 합니다.
 - `gunicorn`으로 실행할 경우 `requirements.txt`에 `gunicorn`을 추가하는 것이 좋습니다.
 - `.venv`, `__pycache__`, 로컬 DB 파일 등은 일반적으로 Git에 올리지 않는 것이 좋습니다.
+
+---
+
+## 향후 개선 가능 사항
+
+- 사용자별 BMI 기록 관리 기능 추가
+- BMI 변화 추이 그래프 추가
+- 입력값 검증 강화
+- 로그인 기능 추가
+- Docker 배포 환경 구성
+- GitHub Actions를 이용한 자동 배포 구성
+- SQLite 개발 환경과 MariaDB 배포 환경 분리
 
 ---
 
